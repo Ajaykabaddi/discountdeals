@@ -1,0 +1,63 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f6f6f6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #ff512f, #f09819);
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+#deals {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+}
+
+.deal {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  width: 220px;
+}
+
+.deal img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.deal h3 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.deal a {
+  display: inline-block;
+  background: #ff512f;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.deal a:hover {
+  background: #f09819;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
